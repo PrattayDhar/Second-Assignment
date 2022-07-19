@@ -3,7 +3,11 @@
 /* Common style */
 body {
     font-family: 'Poppins', sans-serif;
-    margin-left: 6.5%;
+    margin: 0;
+  
+}
+.body-for-margin{
+margin-left: 6.5%;
     margin-right: 6.5%;
 }
 /* 
@@ -103,7 +107,7 @@ button a{
     grid-column-gap:2%;
     grid-row-gap: 2%;
     padding-left: 2%;
-    /* margin-bottom: 10%; */
+    margin-bottom: 10%;
     
 }
 .transfer-banner{
@@ -137,7 +141,34 @@ button a{
     text-decoration: none;
     color: black;  
 }
+
 footer{
+width: 100%;
     height: 444px;
     background-color:#161616;
+}
+footer h1{
+    text-align: center;
+    color: #FFFFFF;
+   padding-top: 10%;
+}
+hr{
+    border: 1px solid #d1d1d142;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.footer-text{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: #FFFFFF;
+}
+.icon {
+     text-align: center;
+     font-size: 2em;
+}
+.icon a{
+    text-decoration: none;
+    margin: 5%;
 }
