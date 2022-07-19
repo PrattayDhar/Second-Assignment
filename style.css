@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100&family=Crimson+Text&family=Merriweather+Sans:wght@300&family=Poppins:ital,wght@0,400;1,500&family=The+Nautigal:wght@700&display=swap');
+
+/* Common style */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
