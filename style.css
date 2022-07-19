@@ -66,6 +66,7 @@ button a{
       Second Secton Design 
   
  ------------------------------*/
+ /* Manu Section */
  .manu{
     border: 2px solid;
     background: #161616;
@@ -86,7 +87,57 @@ button a{
  .manu-section a{
     text-decoration: none;
     font-size: 1.25em;
+    color: #161616;
  }
  .color{
     background-color: red;
  }
+/* Blog Section */
+.section2{
+    display: flex;
+
+}
+.Transfer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap:2%;
+    grid-row-gap: 2%;
+    padding-left: 2%;
+    /* margin-bottom: 10%; */
+    
+}
+.transfer-banner{
+    border: 2px solid rgba(128, 128, 128, 0.09);
+  
+    border-radius: 10px;
+    width: 312px;
+    height: 362px;
+}
+.ban-titel h3{
+  padding-left: 5%;
+}
+.transfer-info{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-left: 5%;
+    padding-right: 50%;
+
+}
+.transfer-button{
+    width: 100px;
+    border: 2px solid;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 5%;
+   
+    
+}
+.transfer-button a{
+    text-decoration: none;
+    color: black;  
+}
+footer{
+    height: 444px;
+    background-color:#161616;
+}
