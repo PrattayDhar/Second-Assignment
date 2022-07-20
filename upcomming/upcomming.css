@@ -148,7 +148,7 @@ button a {
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 2%;
     grid-row-gap: 2%;
-    margin-right: 8%;
+    margin-right: 2%;
     margin-left: 2%;
 
 
@@ -181,7 +181,7 @@ button a {
     text-align: center;
 }
 footer {
-    width:auto;
+    max-width: 1600px;
     height: 444px;
     background-color:#161616;
     margin-top: 10%;
@@ -330,6 +330,7 @@ Media Queies
 footer {
     height: 600px;
       margin-top:50%;
+      min-width: 375px;
     max-width: 678px;
 
 }
