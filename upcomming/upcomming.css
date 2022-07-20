@@ -201,6 +201,10 @@ hr {
     margin-left: 15%;
     margin-right: 15%;
 }
+#va {
+    padding-left: 55%;
+    visibility: hidden;
+}
 
 .footer-text {
     display: flex;
@@ -275,8 +279,7 @@ Media Queies
         white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
-        /* margin-right: %; */
-
+        
     }
 
     button {
@@ -331,11 +334,19 @@ Media Queies
         grid-template-columns: repeat(1, 1fr);
         margin-bottom: 2%;
     }
+         .view {
+             display: none;
+         }
+    
+         #va {
+             padding-left: 20%;
+             padding-right: 35%;
+             visibility: visible;
+         }
 
 
     footer {
         height: 600px;
-        margin-top: 50%;
         min-width: 375px;
         max-width: 678px;
 
@@ -375,7 +386,6 @@ Tablet View
         margin-left: -5%
     }
 
-    /* .first-section {} */
 
 
 
@@ -451,6 +461,7 @@ Tablet View
         margin-bottom: 2%;
         margin-left: 2%;
     }
+   
 
     footer {
         max-width: 992px;

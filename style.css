@@ -7,7 +7,7 @@ body {
 
 }
 
-.body-for-margin{
+.body-for-margin {
     margin-left: 6.5%;
     margin-right: 6.5%;
 }
@@ -153,7 +153,7 @@ button a {
     grid-column-gap: 2%;
     grid-row-gap: 2%;
     padding-left: 2%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 
 }
 
@@ -191,6 +191,12 @@ button a {
     text-decoration: none;
     color: black;
 }
+
+#va {
+    padding-left: 55%;
+     visibility:hidden;
+}
+
 
 footer {
     width: 100%;
@@ -260,7 +266,6 @@ MObile View
     .titel h1 {
         font-size: 2em;
         margin-left: 30%;
-        /* margin-right: 5%; */
         margin-top: 5%;
         padding-bottom: 10%;
 
@@ -272,7 +277,7 @@ MObile View
         margin-left: 30%;
         white-space: nowrap;
         overflow: hidden;
-         text-overflow: ellipsis;
+        text-overflow: ellipsis;
     }
 
     button {
@@ -326,7 +331,7 @@ MObile View
 
     footer {
         min-width: 375px;
-     max-width: 678px;
+        max-width: 678px;
         height: 600px;
         margin-top: 180%;
 
@@ -336,7 +341,8 @@ MObile View
         display: flex;
         flex-direction: column;
         text-align: center;
-    }}
+    }
+}
 
 
 
@@ -349,7 +355,7 @@ Media Queies
 Tablet View
 
 -------------------------------------*/
-@media screen and (min-width:678px) and (max-width:768px) {
+@media screen and (min-width:678px) and (max-width:992px) {
 
     .container {
         width: 734px;
@@ -358,7 +364,7 @@ Tablet View
         margin-left: -5%
     }
 
- 
+
 
 
     .titel h1 {
@@ -378,12 +384,13 @@ Tablet View
 
     }
 
-    button {
+    .watch {
         width: 110px;
         height: 40px;
         font-size: .75rem;
         margin-left: 10%;
     }
+
 
     .img-banner {
 
@@ -397,7 +404,7 @@ Tablet View
     .section2 {
         display: flex;
         flex-direction: column;
-        
+
     }
 
     .manu {
@@ -406,33 +413,42 @@ Tablet View
         display: flex;
         flex-direction: row;
         height: 10%;
-        /* margin-left:10%; */
         padding-left: 10%;
 
 
     }
 
-    .manu-section a{
+    .manu-section a {
         font-size: 1.25em;
         padding-left: 0%;
         padding-right: 10%;
-      
+
     }
 
     .Transfer {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-      gap:5%;
+        gap: 5%;
+        margin-bottom: 30%;
+
+    }
+    .view{
+        display: none;
+    }
+
+
+    .transfer-banner {
+        width: 320px;
         
     }
 
-    .transfer-banner {
-        width: 280px;
-    }
+   #va {
+       padding-left: 35%;
+       visibility: visible;
+   }
 
     footer {
         height: 400px;
-        margin-top: 50%;
 
     }
 
