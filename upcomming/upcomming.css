@@ -21,7 +21,6 @@ body {
     width: 1321px;
     height: 646px;
     border-radius: 30px;
-
     margin-top: 3%;
     margin-bottom: 5%;
 }
@@ -52,17 +51,34 @@ body {
 }
 
 button {
-    background-color: red;
-    border: 2px solid red;
-    border-radius: 5px;
-    padding: 0 6%;
+width: 200px;
+    height: 80px;
 
+    background-color: rgb(255, 0, 68);
+    border-radius: 10px;
+    transition: ease-in-out 1s;
+    font-size: 1.5rem;
+    outline: none;
+    animation: button 5s 2s infinite;
 }
+@keyframes button {
+    from {
+        background-color: black;
+    }
+
+    to {
+        background-color: rgb(255, 0, 68) yellow;
+    }
+}
+
+button:hover {
+    box-shadow: inset 300px 0 0 0 red;
+    cursor: pointer;
+    color: aquamarine;}
 
 button a {
     text-decoration: none;
     color: #FFFFFF;
-    font-size: 1.25em;
 }
 
 .img-banner {
@@ -186,4 +202,115 @@ hr {
 .icon a {
     text-decoration: none;
     margin: 5%;
+}
+/* ---------------------
+
+
+
+Media Queies 
+
+
+
+
+*/
+@media screen and (max-width:678px) {
+
+    .container {
+        width: 334px;
+        height: 520px;
+        margin-left: 1%;
+    }
+
+    .first-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .titel {
+        width: 258px;
+        height: 178px;
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    .titel h1 {
+        font-size: 1em;
+        margin-left: 30%;
+        /* margin-right: 5%; */
+        margin-top: 5%;
+        padding-bottom: 10%;
+
+
+    }
+
+    .small-text {
+        font-size: .75em;
+        margin-left: 30%;
+        margin-right: %;
+
+    }
+
+    button {
+        width: 110px;
+        height: 40px;
+        font-size: .75rem;
+        margin-left: 30%;
+    }
+
+    .img-banner {
+        width: 55%;
+        flex-direction: column;
+        margin-top: 42%;
+        margin-left: 25%;
+
+    }
+
+    .section2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .manu {
+        width: 210px;
+        height: 176px;
+        margin-left: 20%;
+        margin-bottom: 5%;
+
+    }
+
+    .manu-section {
+        padding: 2%;
+        margin: 10%;
+    }
+
+    .manu-section a {
+        font-size: .75em;
+    }
+.match-flag{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin-bottom: 2%;
+}
+    .flag-banner{
+        
+    }
+    .section2{
+width: 280px;
+margin-left: 5%;
+
+    }
+
+    footer {
+        height: 600px;
+        margin-top: 40%;
+
+    }
+
+    .footer-text {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
 }
