@@ -3,7 +3,7 @@
 /* Common style */
 body {
     font-family: 'Poppins', sans-serif;
-margin: 0;
+    margin: 0;
 
 }
 
@@ -136,6 +136,7 @@ button a {
     box-shadow: inset 300px 0 0 0 white;
     cursor: pointer;
 }
+
 /* Blog Section */
 .section2 {
     display: flex;
@@ -161,7 +162,7 @@ button a {
     width: 310px;
     height: 280px;
 
-  
+
 }
 
 .flag-match {
@@ -180,10 +181,11 @@ button a {
 
     text-align: center;
 }
+
 footer {
     max-width: 1600px;
     height: 444px;
-    background-color:#161616;
+    background-color: #161616;
     margin-top: 10%;
 }
 
@@ -270,7 +272,7 @@ Media Queies
     .small-text {
         font-size: .75em;
         margin-left: 30%;
-       /* margin-right: %; */
+        /* margin-right: %; */
 
     }
 
@@ -308,13 +310,14 @@ Media Queies
         padding: 2%;
         margin: 10%;
     }
-        .flag-banner {
-            border: 2px solid rgba(128, 128, 128, 0.09);
-            border-radius: 10px;
-            width: 300px;
-            height: 260px;
-           
-        }
+
+    .flag-banner {
+        border: 2px solid rgba(128, 128, 128, 0.09);
+        border-radius: 10px;
+        width: 300px;
+        height: 260px;
+
+    }
 
     .manu-section a {
         font-size: .75em;
@@ -327,23 +330,24 @@ Media Queies
     }
 
 
-footer {
-    height: 600px;
-      margin-top:50%;
-      min-width: 375px;
-    max-width: 678px;
+    footer {
+        height: 600px;
+        margin-top: 50%;
+        min-width: 375px;
+        max-width: 678px;
 
-}
+    }
 
-.footer-text {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-.body-for-margin {
-    margin-left: 2%;
-    margin-right:8%;
-}
+    .footer-text {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .body-for-margin {
+        margin-left: 2%;
+        margin-right: 8%;
+    }
 }
 
 
@@ -409,34 +413,34 @@ Tablet View
         display: flex;
         flex-direction: column;
     }
-         
-          .manu {
-              border: none;
-              background-color: white;
-              display: flex;
-              flex-direction: row;
-              height: 10%;
-              padding-right: 10%;
-    
-    
-          }
-    
-          .manu-section a {
-              font-size: 1.25em;
-              padding-left: 0%;
-           
-    
-          }
-    
-          
-    
-          .flag-banner {
-              border: 2px solid rgba(128, 128, 128, 0.09);
-              border-radius: 10px;
-              width: 300px;
-              height: 260px;
-    
-          }
+
+    .manu {
+        border: none;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        height: 10%;
+        padding-right: 10%;
+
+
+    }
+
+    .manu-section a {
+        font-size: 1.25em;
+        padding-left: 0%;
+
+
+    }
+
+
+
+    .flag-banner {
+        border: 2px solid rgba(128, 128, 128, 0.09);
+        border-radius: 10px;
+        width: 300px;
+        height: 260px;
+
+    }
 
     .match-flag {
         display: grid;
@@ -446,9 +450,9 @@ Tablet View
     }
 
     footer {
-       max-width: 992px;
+        max-width: 992px;
         height: 400px;
-        margin-top:10%;
+        margin-top: 10%;
 
     }
 
@@ -461,8 +465,9 @@ Tablet View
     hr {
         margin: 0 10px;
     }
-        .body-for-margin {
-            margin-left: 6%;
-            margin-right: 8%;
-        }
+
+    .body-for-margin {
+        margin-left: 6%;
+        margin-right: 8%;
+    }
 }
