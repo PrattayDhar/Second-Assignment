@@ -230,16 +230,12 @@ hr {
 
 /* ---------------------
 
-
-
 Media Queies 
 
 MObile View
 
 
-
-
-*/
+------------------------------*/
 @media screen and (max-width:678px) {
 
     .container {
@@ -348,9 +344,6 @@ Media Queies
 
 Tablet View
 
-
-
-
 -------------------------------------*/
 @media screen and (min-width:678px) and (max-width:768px) {
 
@@ -361,10 +354,7 @@ Tablet View
         margin-left: -5%
     }
 
-    /* .first-section {
-        margin-left: 10;
-    } */
-
+ 
 
 
     .titel h1 {
@@ -403,6 +393,7 @@ Tablet View
     .section2 {
         display: flex;
         flex-direction: column;
+        
     }
 
     .manu {
@@ -410,30 +401,25 @@ Tablet View
         background-color: white;
         display: flex;
         flex-direction: row;
-        width: 500px;
-        height: 150px;
-        margin-left: -15%;
-        margin-bottom: 5%;
+        height: 10%;
+        /* margin-left:10%; */
+        padding-left: 10%;
+
 
     }
 
-    .manu-section {
-        padding: 0 15%;
-        /* padding: 2%; */
-        margin-right: -3%;
-    }
-
-    .manu-section a {
+    .manu-section a{
         font-size: 1.25em;
-        text-align: center;
+        padding-left: 0%;
+        padding-right: 10%;
+      
     }
 
     .Transfer {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-row-gap: 2%;
-        padding-left: 5%;
-        margin-bottom: 1%;
+      gap:5%;
+        
     }
 
     .transfer-banner {
@@ -442,7 +428,7 @@ Tablet View
 
     footer {
         height: 400px;
-        margin-top: 30%;
+        margin-top: 50%;
 
     }
 

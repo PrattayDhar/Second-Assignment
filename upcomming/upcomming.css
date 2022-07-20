@@ -105,8 +105,8 @@ button a {
     border: 2px solid;
     background: #161616;
     border-radius: 10px;
-    height: 312px;
-    width: 380px;
+    height: 400px;
+    width: 320px;
 
 }
 
@@ -114,7 +114,7 @@ button a {
 
     background-color: #FFFFFF;
     border-radius: 10px;
-    padding: 10%;
+    padding: 5%;
     margin: 15%;
     text-align: center;
 
@@ -143,7 +143,7 @@ button a {
 /* Blog Section */
 .section2 {
     display: flex;
-    margin-right: 50%;
+    justify-content: space-between;
 
 }
 
@@ -152,6 +152,7 @@ button a {
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 2%;
     grid-row-gap: 2%;
+    margin-right: 2.5%;
 
 
 
@@ -160,8 +161,10 @@ button a {
 .flag-banner {
     border: 2px solid rgba(128, 128, 128, 0.09);
     border-radius: 10px;
-    width: 312px;
-    height: 362px;
+    width: 310px;
+    height: 280px;
+
+  
 }
 
 .flag-match {
@@ -181,10 +184,10 @@ button a {
     text-align: center;
 }
 footer {
-    width:1600px;
+    width:1520px;
     height: 444px;
     background-color:#161616;
-    margin-top: -140%;
+    margin-top: 10%;
 }
 
 
@@ -288,13 +291,15 @@ Media Queies
     .section2 {
         display: flex;
         flex-direction: column;
+        width: 280px;
+        margin-left: 5%;
     }
 
     .manu {
         width: 210px;
         height: 176px;
         margin-left: 20%;
-        margin-bottom: 5%;
+        margin-bottom: 20%;
 
     }
 
@@ -302,6 +307,13 @@ Media Queies
         padding: 2%;
         margin: 10%;
     }
+        .flag-banner {
+            border: 2px solid rgba(128, 128, 128, 0.09);
+            border-radius: 10px;
+            width: 300px;
+            height: 260px;
+           
+        }
 
     .manu-section a {
         font-size: .75em;
@@ -312,15 +324,11 @@ Media Queies
         grid-template-columns: repeat(1, 1fr);
         margin-bottom: 2%;
     }
-.section2 {
-    width: 280px;
-    margin-left: 5%;
 
-}
 
 footer {
     height: 600px;
-    width: 375px;
+    width: 415px;
     margin-top: 40%;
 
 }
@@ -395,40 +403,46 @@ Tablet View
         display: flex;
         flex-direction: column;
     }
-
-    .manu {
-        border: none;
-        background-color: white;
-        display: flex;
-        flex-direction: row;
-        width: 500px;
-        height: 150px;
-        margin-left: -30%;
-        margin-bottom: 5%;
-
-    }
-
-    .manu-section {
-        padding: 0 15%;
-        /* padding: 2%; */
-        margin-right: -10%;
-    }
-
-    .manu-section a {
-        font-size: 1.25em;
-        text-align: center;
-    }
+         
+          .manu {
+              border: none;
+              background-color: white;
+              display: flex;
+              flex-direction: row;
+              height: 10%;
+              padding-right: 10%;
+    
+    
+          }
+    
+          .manu-section a {
+              font-size: 1.25em;
+              padding-left: 0%;
+           
+    
+          }
+    
+          
+    
+          .flag-banner {
+              border: 2px solid rgba(128, 128, 128, 0.09);
+              border-radius: 10px;
+              width: 300px;
+              height: 260px;
+    
+          }
 
     .match-flag {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         margin-bottom: 2%;
-        margin-left: -2%;
+        margin-left: 2%;
     }
 
     footer {
-        height: 650px;
-        margin-top: 20%;
+        width: 760px;
+        height: 400px;
+        margin-top:10%;
 
     }
 
@@ -441,5 +455,4 @@ Tablet View
     hr {
         margin: 0 10px;
     }
-
 }
