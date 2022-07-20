@@ -4,294 +4,457 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
-  
+
 }
+
 .body-for-margin{
-margin-left:6.5%;
-margin-right:6.5%;
+    margin-left: 6.5%;
+    margin-right: 6.5%;
 }
+
 /* 
 --------------First section Design-----------
  */
 .container {
-    border:2px solid;
+    border: 2px solid;
     background-color: #161616;
     width: 1321px;
     height: 646px;
     border-radius: 30px;
-     margin-top: 3%;
+    margin-top: 3%;
     margin-bottom: 5%;
 }
-.first-section{
+
+.first-section {
     display: flex;
     justify-content: space-evenly;
- 
+
 }
+
 .titel {
     width: 531px;
     height: 424px;
-    color:#FFFFFF ;
-  
-    
+    color: #FFFFFF;
+
+
 }
-.titel h1{
+
+.titel h1 {
     font-size: 4.375em;
 
 }
-.small-text{
-font-size: 1em;
-margin-top: -10%;
-padding-bottom: 1%;
-}
-button{
- width: 200px;
- height: 80px;
 
- background-color: rgb(255, 0, 68);
+.small-text {
+    font-size: 1em;
+    margin-top: -10%;
+    padding-bottom: 1%;
+}
+
+button {
+    width: 200px;
+    height: 80px;
+
+    background-color: rgb(255, 0, 68);
     border-radius: 10px;
     transition: ease-in-out 1s;
     font-size: 1.5rem;
     outline: none;
-    animation: button 5s  2s infinite ;
- 
+    animation: button 5s 2s infinite;
+
 }
-@keyframes button{
+
+@keyframes button {
     from {
-            background-color:black;
-        }
-    
-        to {
-            background-color:rgb(255, 0, 68) yellow;
-        }
+        background-color: black;
+    }
+
+    to {
+        background-color: rgb(255, 0, 68) yellow;
+    }
 }
-button:hover{
+
+button:hover {
     box-shadow: inset 300px 0 0 0 red;
     cursor: pointer;
     color: aquamarine;
 }
-button a{
+
+button a {
     text-decoration: none;
     color: #FFFFFF;
 }
-.img-banner{
+
+.img-banner {
     width: 581px;
     height: 631px;
 
 }
-.img-banner img{
+
+.img-banner img {
     width: 100%;
     padding-top: 6%;
 }
- /*---------------------------
+
+/*---------------------------
  
       Second Secton Design 
   
  ------------------------------*/
- /* Manu Section */
- .manu{
+/* Manu Section */
+.manu {
     border: 2px solid;
     background: #161616;
-        border-radius: 10px;
-        height: 312px;
-        width: 312px;
-        
- }
- .manu-section{
-  
+    border-radius: 10px;
+    height: 312px;
+    width: 312px;
+
+}
+
+.manu-section {
+
     background-color: #FFFFFF;
     border-radius: 10px;
     padding: 5%;
     margin: 10%;
     text-align: center;
 
- }
- .manu-section:hover{
+}
+
+.manu-section:hover {
     box-shadow: inset 300px 0 0 0 red;
-        cursor: pointer;
-        
- }
- .manu-section a{
+    cursor: pointer;
+
+}
+
+.manu-section a {
     text-decoration: none;
     font-size: 1.25em;
     color: #161616;
- }
- .color{
+}
+
+.color {
     background-color: red;
- }
- .color:hover{
+}
+
+.color:hover {
     box-shadow: inset 300px 0 0 0 white;
-        cursor: pointer;
- }
+    cursor: pointer;
+}
+
 /* Blog Section */
-.section2{
+.section2 {
     display: flex;
 
 }
-.Transfer{
+
+.Transfer {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-column-gap:2%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 2%;
     grid-row-gap: 2%;
     padding-left: 2%;
     margin-bottom: 10%;
-    
+
 }
-.transfer-banner{
+
+.transfer-banner {
     border: 2px solid rgba(128, 128, 128, 0.09);
     border-radius: 10px;
     width: 312px;
     height: 362px;
 }
-.ban-titel h3{
-  padding-left: 5%;
+
+.ban-titel h3 {
+    padding-left: 5%;
 }
-.transfer-info{
+
+.transfer-info {
     display: flex;
     align-items: center;
-    justify-content:space-between;
+    justify-content: space-between;
     padding-left: 5%;
     padding-right: 50%;
 
 }
-.transfer-button{
+
+.transfer-button {
     width: 100px;
     border: 2px solid;
     border-radius: 5px;
     text-align: center;
     margin-left: 5%;
-   
-    
-}
-.transfer-button a{
-    text-decoration: none;
-    color: black;  
+
+
 }
 
-footer{
-width: 100%;
-    height: 444px;
-    background-color:#161616;
+.transfer-button a {
+    text-decoration: none;
+    color: black;
 }
-footer h1{
+
+footer {
+    width: 100%;
+    height: 444px;
+    background-color: #161616;
+}
+
+footer h1 {
     text-align: center;
     color: #FFFFFF;
-   padding-top: 10%;
+    padding-top: 10%;
 }
-hr{
+
+hr {
     border: 1px solid #d1d1d142;
     margin-left: 15%;
     margin-right: 15%;
 }
-.footer-text{
+
+.footer-text {
     display: flex;
     justify-content: space-evenly;
     margin-left: 15%;
     margin-right: 15%;
     color: #FFFFFF;
 }
+
 .icon {
-     text-align: center;
-     font-size: 2em;
+    text-align: center;
+    font-size: 2em;
 }
-.icon a{
+
+.icon a {
     text-decoration: none;
     margin: 5%;
 }
+
 /* ---------------------
 
 
 
 Media Queies 
 
+MObile View
 
 
 
-*/ 
+
+*/
 @media screen and (max-width:678px) {
-  
+
     .container {
         width: 334px;
         height: 520px;
         margin-left: 1%;
     }
-        .first-section {
-            display: flex;
-            flex-direction: column;
-        }
 
-.titel{
-    width: 258px;
+    .first-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .titel {
+        width: 258px;
         height: 178px;
-    flex-direction: column;
-    text-align: center;
+        flex-direction: column;
+        text-align: center;
 
-}
-.titel h1{
-    font-size: 1em;
-    margin-left: 30%;
+    }
+
+    .titel h1 {
+        font-size: 1em;
+        margin-left: 30%;
         /* margin-right: 5%; */
-    margin-top: 5%;
-    padding-bottom: 10%;
-  
-    
+        margin-top: 5%;
+        padding-bottom: 10%;
+
+
+    }
+
+    .small-text {
+        font-size: .75em;
+        margin-left: 30%;
+        margin-right: %;
+
+    }
+
+    button {
+        width: 110px;
+        height: 40px;
+        font-size: .75rem;
+        margin-left: 30%;
+    }
+
+    .img-banner {
+        width: 55%;
+        flex-direction: column;
+        margin-top: 42%;
+        margin-left: 25%;
+
+    }
+
+    .section2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .manu {
+        width: 210px;
+        height: 176px;
+        margin-left: 20%;
+        margin-bottom: 5%;
+
+    }
+
+    .manu-section {
+        padding: 2%;
+        margin: 10%;
+    }
+
+    .manu-section a {
+        font-size: .75em;
+    }
+
+    .Transfer {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 2%;
+        padding-left: 5%;
+        margin-bottom: 1%;
+    }
+
+    .transfer-banner {
+        width: 280px;
+    }
+
+    footer {
+        height: 650px;
+        margin-top: 140%;
+
+    }
+
+    .footer-text {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
 }
 
-.small-text {
-    font-size: .75em;
-margin-left: 30%;
-    margin-right: %;
-  
-}
-button{
-    width: 110px;
-    height: 40px;
-    font-size: .75rem;
-    margin-left: 30%;
-}
-.img-banner{
-    width: 55%;
-    flex-direction: column;
-    margin-top: 42%;
-    margin-left: 25%;
+/* ---------------------
 
-}
-.section2{
-    display: flex;
-    flex-direction: column;
-}
-.manu{
-    width: 210px;
-    height: 176px;
-   margin-left: 20%;
-   margin-bottom: 5%;
- 
-}
-.manu-section{
-padding: 2%;
-    margin: 10%;
-}
-.manu-section a{
-    font-size: .75em;
-}
-.Transfer{
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-    grid-row-gap: 2%;
-    padding-left: 5%;
-    margin-bottom: 1%;
-}
-.transfer-banner {
-    width: 280px;
-}
-footer{
-    height: 650px;
-    margin-top: 140%;
 
-}
-.footer-text{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
+
+Media Queies 
+
+Tablet View
+
+
+
+
+-------------------------------------*/
+@media screen and (min-width:678px) and (max-width:768px) {
+
+    .container {
+        width: 734px;
+        height: 398px;
+        margin-right: 15%;
+        margin-left: -5%
+    }
+
+    .first-section {
+        margin-left: 10;
+    }
+
+
+
+    .titel h1 {
+        font-size: 1.75em;
+        margin-left: 10%;
+        margin-right: 5%;
+        margin-top: 5%;
+        padding-bottom: 10%;
+
+
+    }
+
+    .small-text {
+        font-size: 1em;
+        margin-left: 10%;
+        margin-right: 10%;
+
+    }
+
+    button {
+        width: 110px;
+        height: 40px;
+        font-size: .75rem;
+        margin-left: 10%;
+    }
+
+    .img-banner {
+
+        width: 50%;
+        padding-top: 10%;
+        margin-right: 2%;
+
+
+    }
+
+    .section2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .manu {
+        border: none;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        width: 500px;
+        height: 150px;
+        margin-left: -15%;
+        margin-bottom: 5%;
+
+    }
+
+    .manu-section {
+        padding: 0 15%;
+        /* padding: 2%; */
+        margin-right: -3%;
+    }
+
+    .manu-section a {
+        font-size: 1.25em;
+        text-align: center;
+    }
+
+    .Transfer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 2%;
+        padding-left: 5%;
+        margin-bottom: 1%;
+    }
+
+    .transfer-banner {
+        width: 280px;
+    }
+
+    footer {
+        height: 400px;
+        margin-top: 30%;
+
+    }
+
+    .footer-text {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0 10px;
+    }
+
+    hr {
+        margin: 0 10px;
+    }
 
 }
