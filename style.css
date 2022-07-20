@@ -258,7 +258,7 @@ MObile View
     }
 
     .titel h1 {
-        font-size: 1em;
+        font-size: 2em;
         margin-left: 30%;
         /* margin-right: 5%; */
         margin-top: 5%;
@@ -270,7 +270,9 @@ MObile View
     .small-text {
         font-size: .75em;
         margin-left: 30%;
-
+        white-space: nowrap;
+        overflow: hidden;
+         text-overflow: ellipsis;
     }
 
     button {
@@ -323,6 +325,8 @@ MObile View
     }
 
     footer {
+        min-width: 375px;
+     max-width: 678px;
         height: 600px;
         margin-top: 180%;
 
