@@ -60,6 +60,7 @@ button {
     font-size: 1.5rem;
     outline: none;
     animation: button 5s 2s infinite;
+
 }
 
 @keyframes button {
@@ -100,13 +101,12 @@ button a {
   
  ------------------------------*/
 /* Manu Section */
-/* Manu Section */
 .manu {
     border: 2px solid;
     background: #161616;
     border-radius: 10px;
     height: 312px;
-    width: 312px;
+    width: 380px;
 
 }
 
@@ -114,8 +114,8 @@ button a {
 
     background-color: #FFFFFF;
     border-radius: 10px;
-    padding: 5%;
-    margin: 10%;
+    padding: 10%;
+    margin: 15%;
     text-align: center;
 
 }
@@ -140,19 +140,10 @@ button a {
     box-shadow: inset 300px 0 0 0 white;
     cursor: pointer;
 }
-
-.color {
-    background-color: red;
-}
-
-color:hover {
-    box-shadow: inset 300px 0 0 0 white;
-    cursor: pointer;
-}
-
 /* Blog Section */
 .section2 {
     display: flex;
+    margin-right: 50%;
 
 }
 
@@ -161,8 +152,8 @@ color:hover {
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 2%;
     grid-row-gap: 2%;
-    padding-left: 2%;
-    margin-bottom: 10%;
+
+
 
 }
 
@@ -170,7 +161,7 @@ color:hover {
     border: 2px solid rgba(128, 128, 128, 0.09);
     border-radius: 10px;
     width: 312px;
-    height: 242px;
+    height: 362px;
 }
 
 .flag-match {
@@ -188,16 +179,14 @@ color:hover {
 .time {
 
     text-align: center;
-
-
 }
-
-
 footer {
-    width: 100%;
+    width:1600px;
     height: 444px;
-    background-color: #161616;
+    background-color:#161616;
+    margin-top: -140%;
 }
+
 
 footer h1 {
     text-align: center;
@@ -229,6 +218,11 @@ hr {
     margin: 5%;
 }
 
+
+
+
+
+
 /* ---------------------
 
 
@@ -237,8 +231,8 @@ Media Queies
 
 
 
+----------------------------------------*/
 
-*/
 @media screen and (max-width:678px) {
 
     .container {
@@ -272,7 +266,7 @@ Media Queies
     .small-text {
         font-size: .75em;
         margin-left: 30%;
-        margin-right: %;
+       /* margin-right: %; */
 
     }
 
@@ -318,9 +312,6 @@ Media Queies
         grid-template-columns: repeat(1, 1fr);
         margin-bottom: 2%;
     }
-
-}
-
 .section2 {
     width: 280px;
     margin-left: 5%;
@@ -329,6 +320,7 @@ Media Queies
 
 footer {
     height: 600px;
+    width: 375px;
     margin-top: 40%;
 
 }
@@ -338,6 +330,8 @@ footer {
     flex-direction: column;
     text-align: center;
 }
+}
+
 
 /* ---------------------
 
@@ -360,7 +354,7 @@ Tablet View
         margin-left: -5%
     }
 
-    .first-section {}
+    /* .first-section {} */
 
 
 
